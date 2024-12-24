@@ -1,0 +1,102 @@
+* {
+  margin: 0;
+  padding: 0;
+  outline: none;
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 95%;
+  background: papayawhip;
+}
+
+.calculator {
+  border: 2px solid black;
+  padding: 1rem;
+  min-height: 65vh;
+  width: 34vw;
+  background-color: #22232E;
+  color: white;
+  margin-top: 0.5vw;
+  border-radius: 1rem;
+}
+
+.input {
+  font-size: 2.5vw;
+  width: 99%;
+  outline: none;
+  color: white;
+  padding: 1vh 2vh;
+  background-color: #5D6082;
+  border: none;
+  border-radius: 0.3rem;
+  text-align: right;
+}
+
+.btnBox {
+  display: flex;
+  align-items: center;
+  font-size: 2.8vw;
+}
+
+.firstBoxContainer {
+  display: grid;
+  width: 25vw;
+  grid-template-columns: 3rem 3rem 3rem;
+  grid-row-gap: 1rem;
+  grid-column-gap: 1.2rem;
+  margin-top: 1.5vw;
+}
+
+.boxes {
+  min-height: 6vw;
+  min-width: 6vw;
+
+  text-align: center;
+  background-color: #3C3C3E;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 0.7rem;
+}
+
+.x {
+  min-height: 6vw;
+  min-width: 6vw;
+  padding: 1vw;
+  text-align: center;
+  background-color: #3C3C3E;
+  border-radius: 0.7rem;
+}
+
+.secondBoxContainer {
+  font-size: 1.8rem;
+  margin-top: 0.5rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 76vh;
+}
+
+.equalBox {
+  padding: 8.3vw 0;
+  text-align: center;
+  background-color: #3C3C3E;
+  border-radius: 0.7rem;
+}
+
+.clearBox {
+  min-height: 6vw;
+  min-width: 6vw;
+  background-color: #3C3C3E;
+  border-radius: 0.7rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.colour{
+  background: #D96600;
+}
